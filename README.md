@@ -58,7 +58,7 @@ queue.addElement("baz")		//"baz" is immediately printed to the console, and the 
 
 I needed to send messages through a long-lived WebSocket connection, however, the connection would occasionally go down for a few seconds until it reconnected again. In this case, it was better that the client of the WebSocket object did not handle the logic to check if the connection was down or not. The client simply pushed the messages though WebSocket, and if the connection was down, the WebSocket library would hold on to the messages until the connection would be restored.
 
-# Final words
+### Final words
 
 Made by [Ermir Suldashi](suldashi.com)  
 License: MIT
