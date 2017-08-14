@@ -60,5 +60,5 @@ I needed to send messages through a long-lived WebSocket connection, however, th
 
 ### Final words
 
-Made by [Ermir Suldashi](suldashi.com)  
+Made by [Ermir Suldashi](https://suldashi.com)  
 License: MIT
