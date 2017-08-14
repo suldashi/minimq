@@ -42,6 +42,5 @@ class MiniMQ {
 if(typeof window !== "undefined") {
 	window.MiniMQ = MiniMQ;	
 }
-else {
-	module.exports = MiniMQ;
-}
+module.exports = MiniMQ;
+//end of file
