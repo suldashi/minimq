@@ -50,8 +50,8 @@ queue.handlerFunction = (el,prm,resolve,reject) => {
 };
 queue.addElement("foo");	//nothing happens at this point
 queue.addElement("bar");	//nothing here either
-queue.open()				//at this point, "foo" and "bar" are printed in the console, and the Promises that were returned by addElement are resolved
-queue.addElement("baz")		//"baz" is immediately printed to the console, and the Promise immediately resolved
+queue.open();				//at this point, "foo" and "bar" are printed in the console, and the Promises that were returned by addElement are resolved
+queue.addElement("baz");	//"baz" is immediately printed to the console, and the Promise immediately resolved
 ```
 
 ### Why I made this
