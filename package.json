@@ -1,0 +1,11 @@
+{
+  "name": "minimq",
+  "version": "1.0.0",
+  "description": "A tiny message queue module for JS async operations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ermir Suldashi",
+  "license": "MIT"
+}
