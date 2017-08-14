@@ -43,4 +43,3 @@ if(typeof window !== "undefined") {
 	window.MiniMQ = MiniMQ;	
 }
 module.exports = MiniMQ;
-//end of file

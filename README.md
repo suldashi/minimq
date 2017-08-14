@@ -8,7 +8,7 @@ MiniMQ is usable both in the browser and Node.js, and can be installed in npm by
 `npm install minimq`
 
 ### Usage
-
+Put the require statement somewhere in your code. `const MiniMQ = require("minimq");`  
 An instance of MiniMQ is created by calling MiniMQ with the new keyword. `let queue = new MiniMQ();`
 
 In a MiniMQ instance, you can push elements at any time, however, the queue at any time may be closed or open. If the queue instance is open, then the element will be passed to the handler function, and if the queue is closed, it will be backed up internally until the queue is opened again. When the queue is opened, the elements will be passed to the handler in the order in which they entered the queue.
