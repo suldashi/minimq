@@ -1,4 +1,4 @@
-export class MiniMQ {
+class MiniMQ {
 	constructor() {
 		this.queue = [];
 		this.closeQueue();
@@ -38,8 +38,6 @@ export class MiniMQ {
 		return prm;
 	}
 }
-
-export default MiniMQ;
 
 if(typeof window !== "undefined") {
 	window.MiniMQ = MiniMQ;	
